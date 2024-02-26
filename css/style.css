@@ -76,13 +76,16 @@ section{
 
 .home{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
 .home-img {
     width: 35vw;
     animation: floatImage 4s ease-in-out infinite;
+    border: 10px solid #0ef;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #0ef;
 }
 
 @keyframes floatImage{
