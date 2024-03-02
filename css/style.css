@@ -175,6 +175,9 @@ span{
 
 .about-img img{
     width: 35vw;
+    border: 10px solid #0ef;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #0ef;
 }
 
 .heading {
